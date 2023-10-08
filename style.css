@@ -9,14 +9,14 @@ body{
     margin: 0; 
     font-family:sans-serif ;
     background-position: center;
-    overflow: hidden;
-    background-image: url(./imgbank/istockphoto-1162166565-612x612.jpg);
-   background-size: cover;
+    /* overflow: hidden; */
+    background-image: url(./imgbank/istockphoto-862661268-612x612.jpg);
+   background-size:auto;
 }
 .main-nav{
     background: rgba(0, 100, 0);
     text-align: center;
-    width: 100vw;
+    /* width: 100vw; */
 
 
 }
@@ -78,4 +78,21 @@ color: #b2ff00;
     background: rgba(0, 100, 0);
     margin-top: -40px;
     margin-left: 140px;
+}
+
+.linux{
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.lin-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: right;
+    margin-top: 50px;
+    color: white;
+    background: rgba(0, 100, 0);
+    opacity: 1;
+    max-width: fit-content;
 }
